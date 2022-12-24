@@ -83,6 +83,28 @@ conn.execute(''' INSERT INTO ARTWORK VALUES(50022,'Χωρίς τίτλο','Οξ�
 conn.execute(''' INSERT INTO ARTWORK VALUES(50031,'Ο Ξενής με τη σύζυγό του Louis Corinth','Λινόλεουμ, χαρτί και πλεξιγκλάς','100x100x5','Χαρακτική',2011,NULL,'Αφηρημένο',500,5,5003);   ''') 
 conn.execute(''' INSERT INTO ARTWORK VALUES(50041,'Μπλε εσωτερικό','Έγχρωμη λιθογραφία','40x49,5','Χαρακτική',1975,NULL,'Εξπρεσιονισμός',500,5,5004);   ''') 
 
+conn.execute(''' INSERT INTO TICKET VALUES( fff
+
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(411297822,'alexandros_stratakis@gmail.com','Αρσενικό','Συντήρηση',10000,'Αλέξανδρος',NULL,'Στρατάκης',6985558843,NULL); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(723466902,'aimilia.andreou@gmail.com','Θυληκό','Ξενάγηση',9000,'Αιμιλία',NULL,'Ανδρέου',6934432230,NULL); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(021132021,'k_anagnwstopoulos@gmail.com','Αρσενικό','Συντήρηση',7600,'Κωνσταντίνος','Ανδρέας','Αναγνωστόπουλος',6982382484,411297822); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(099807807,'ilias_kontos@gmail.com','Αρσενικό','Συντήρηση',7000,'Ηλίας',NULL,'Κοντός',6948293440,411297822); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(151629092,'milt_dabros@gmail.com','Αρσενικό','Συντήρηση',7000,'Μιλτιάδης','Νικόλαος','Δάβρος',6959550351,411297822); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(131206401,'zeta.kalokairinou2@gmail.com','Θυληκό','Συντήρηση',7600,'Γιωργία',NULL,'Καλοκαιρινού',694967934,411297822); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(032044643,'daphne_pan_petrou@gmail.com','Θυληκό','Ξενάγηση',6800,'Δάφνη','Παναγιώτα','Πέτρου',6931219550,723466902); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(123343230,'orestis6laliwtis@gmail.com','Αρσενικό','Ξενάγηση',6600,'Ορέστης','Παναγιώτης','Λαλιώτης',6940907888,723466902); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(225290800,'michael_askitis@gmail.com','Αρσενικό','Ξενάγηση',7300,'Μιχάλης','Ιωάννης','Ασκητής',6985922422,723466902); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(338390272,'niki_aretha222@gmail.com','Θυληκό','Ξενάγηση',7300,'Νικολία',NULL,'Αρέθα',6976699769,723466902); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(039975611,'isidoros.karaiskakis@gmail.com','Αρσενικό','Ξενάγηση',6800,'Ισίδωρος','Χαράλαμπος','Καραϊσκάκης',6945898005,723466902); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(231124443,'lia.roussou95@gmail.com','Θυληκό','Ξενάγηση',6800,'Αποστολία',NULL,'Ρούσσου',6930901801,723466902); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(203344398,'penny_andrikopoulou@gmail.com','Θυληκό','Ταμείο',6900,'Πηνελόπη',NULL,'Ανδρικοπούλου',6984348000,NULL); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(505540903,'dimos_pappas@gmail.com','Αρσενικό','Ταμείο',6000,'Δημοσθένης',NULL,'Παππάς',6934335227,NULL); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(498799033,'thanos_gkerekos@gmail.com','Αρσενικό','Ταμείο',6000,'Αθανάσιος',NULL,'Γκερέκος',6976883922,NULL); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(409828223,'tasos_fwtiou@gmail.com','Αρσενικό','Ταμείο',6000,'Αναστάσης',NULL,'Φωτίου',6973453291,NULL); ''')
+conn.execute(''' INSERT INTO EMPLOYEE VALUES(099879922,'anna_maria.koraki11@gmail.com','Θυληκό','Ταμείο',5650,'Άννα','Μαρία','Κοράκη',6934345644,NULL); ''')
+
+
+
 
 
 conn.commit()
